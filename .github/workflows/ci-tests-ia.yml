@@ -11,9 +11,9 @@ jobs:
       name: Tests + Analyse IA
       runs-on: ubuntu-latest
     
-    strategy:
-      matrix:
-        python-version: ['3.11']
+      strategy:
+        matrix:
+          python-version: ['3.11']
 
     steps:
       - name: Checkout repository
